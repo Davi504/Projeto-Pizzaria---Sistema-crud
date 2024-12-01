@@ -26,14 +26,14 @@ O arquivo `comandos.txt` é um arquivo de texto com todos os comandos SQL necess
 
 1. clone o repositório :
    `git clone https://github.com/Davi504/Projeto-Pizzaria---Sistema-crud.git cd Projeto-Pizzaria---Sistema-crud`
-2. Instale e Configure o XAMPP :<br/> .Baixe e instale o XAMPP <br/>.Inicie Apache e MySQL no painel de controle do XAMPP
+2. Instale e Configure o XAMPP :<br/> . Baixe e instale o XAMPP <br/>. Inicie Apache e MySQL no painel de controle do XAMPP
 3.  Crie o banco de dados usando o arquivo `comandos.txt`
 4.  Configure o projeto:
-   <br/>.Abra o projeto no Visual Studio Code (ou qualquer editor de sua preferência).
-   <br/>.Edite o arquivo de configuração do banco de dados (`conn.php ou similar`) com os detalhes do seu banco de dados MySQL.
+   <br/>. Abra o projeto no Visual Studio Code (ou qualquer editor de sua preferência).
+   <br/>. Edite o arquivo de configuração do banco de dados (`conn.php ou similar`) com os detalhes do seu banco de dados MySQL.
 5. Execute o projeto:
-   <br/>.Coloque a pasta do projeto na pasta `htdocs` do XAMPP.
-   <br/>.No navegador, digite `http://localhost` para acessar o projeto..
+   <br/>. Coloque a pasta do projeto na pasta `htdocs` do XAMPP.
+   <br/>. No navegador, digite `http://localhost` para acessar o projeto..
 
 
 
