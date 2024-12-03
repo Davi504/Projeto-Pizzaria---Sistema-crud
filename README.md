@@ -12,9 +12,12 @@ Este projeto é um sistema CRUD para gerenciar os pedidos e o cadastro de produt
 
 ## Funcionalidades Principais
 
-1. **Gerenciamento de Pedidos**: Criação, visualização, atualização e exclusão de pedidos de pizzas, incluindo informações sobre tipos de pizzas, quantidade e status do pedido.
-2. **Cadastro de Produtos**: Administração do catálogo de pizzas, permitindo adicionar novas pizzas, visualizar detalhes, atualizar preços e descrições, e remover pizzas do menu.
-3. **Interface Amigável**: Interface web intuitiva e responsiva, facilitada pelo uso do Bootstrap, para melhorar a experiência do usuário.  
+1. **Gerenciamento de Pedidos**:
+   - Criação, visualização, atualização e exclusão de pedidos de pizzas, incluindo informações sobre tipos de pizzas, quantidade e status do pedido.
+3. **Cadastro de Produtos**:
+   - Administração do catálogo de pizzas, permitindo adicionar novas pizzas, visualizar detalhes, atualizar preços e descrições, e remover pizzas do menu.
+4. **Interface Amigável**:
+   - Interface web intuitiva e responsiva, facilitada pelo uso do Bootstrap, para melhorar a experiência do usuário.  
 
 ## Modelagem de dados
 
@@ -28,14 +31,16 @@ O arquivo `comandos.txt` é um arquivo de texto com todos os comandos SQL necess
    ```sh
    git clone https://github.com/Davi504/Projeto-Pizzaria---Sistema-crud.git
    cd Projeto-Pizzaria---Sistema-crud
-3. Instale e Configure o XAMPP :<br/> . Baixe e instale o XAMPP <br/>. Inicie Apache e MySQL no painel de controle do XAMPP
-4.  Crie o banco de dados usando o arquivo `comandos.txt`
-5.  Configure o projeto:
-   <br/>. Abra o projeto no Visual Studio Code (ou qualquer editor de sua preferência).
-   <br/>. Edite o arquivo de configuração do banco de dados (`conn.php ou similar`) com os detalhes do seu banco de dados MySQL.
-6. Execute o projeto:
-   <br/>. Coloque a pasta do projeto na pasta `htdocs` do XAMPP.
-   <br/>. No navegador, digite `http://localhost` para acessar o projeto..
+3. Instale e Configure o XAMPP:
+   - Baixe e instale o XAMPP
+   - Inicie Apache e MySQL no painel de controle do XAMPP
+5.  Crie o banco de dados usando o arquivo `comandos.txt`
+6.  Configure o projeto:
+      - Abra o projeto no Visual Studio Code (ou qualquer editor de sua preferência).
+      - Edite o arquivo de configuração do banco de dados (`conn.php ou similar`) com os detalhes do seu banco de dados MySQL.
+7. Execute o projeto:
+   - Coloque a pasta do projeto na pasta `htdocs` do XAMPP.
+   - No navegador, digite `http://localhost` para acessar o projeto..
 
 
 
