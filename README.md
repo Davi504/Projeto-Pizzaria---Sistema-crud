@@ -11,6 +11,22 @@ O desenvolvimento da aplicação começou com a modelagem de dados para garantir
 
 O foco principal foi garantir uma experiência de usuário intuitiva. Testei a aplicação extensivamente para assegurar que todos os fluxos de pedidos e gerenciamento de produtos fossem funcionais e fáceis de usar. A integração do banco de dados MySQL foi otimizada para rápidas consultas e armazenamento seguro de dados
 
+
+## Problemas Encontrados e Soluções:
+
+### Desempenho da Consulta ao Banco de Dados:
+
+   - Problema: As consultas aos dados dos pedidos estavam lentas devido ao grande volume de registros.
+
+   - Solução: Implementei índices nas tabelas principais e usei consultas SQL otimizadas para melhorar o desempenho.
+
+### Responsividade em Dispositivos Móveis:
+
+   - Problema: A interface não estava se adaptando bem em telas menores.
+
+   - Solução: Ajustei o layout utilizando o grid system do Bootstrap e media queries customizadas para garantir uma boa aparência em todos os dispositivos.
+
+
 ## tecnologias usadas:
 
 <!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
@@ -31,18 +47,6 @@ O foco principal foi garantir uma experiência de usuário intuitiva. Testei a a
 O projeto inclui um arquivo `ref_pizzaria.mwb` que contém o diagrama do banco de dados, proporcionando uma visão clara da estrutura e das relações entre as tabelas.
 
 O arquivo `comandos.txt` é um arquivo de texto com todos os comandos SQL necessários para criar e popular o banco de dados MySQL utilizado no projeto. Certifique-se de executar esses comandos antes de iniciar o sistema.
-
-## Problemas Encontrados e Soluções:
-### Desempenho da Consulta ao Banco de Dados:
-   - Problema: As consultas aos dados dos pedidos estavam lentas devido ao grande volume de registros.
-
-   - Solução: Implementei índices nas tabelas principais e usei consultas SQL otimizadas para melhorar o desempenho.
-
-### Responsividade em Dispositivos Móveis:
-
-   - Problema: A interface não estava se adaptando bem em telas menores.
-
-   - Solução: Ajustei o layout utilizando o grid system do Bootstrap e media queries customizadas para garantir uma boa aparência em todos os dispositivos.
 
 ## Como rodar o projeto na sua máquina
 
