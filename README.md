@@ -25,6 +25,18 @@ O projeto inclui um arquivo `ref_pizzaria.mwb` que contém o diagrama do banco d
 
 O arquivo `comandos.txt` é um arquivo de texto com todos os comandos SQL necessários para criar e popular o banco de dados MySQL utilizado no projeto. Certifique-se de executar esses comandos antes de iniciar o sistema.
 
+## Problemas Encontrados e Soluções:
+### Desempenho da Consulta ao Banco de Dados:
+   - Problema: As consultas aos dados dos pedidos estavam lentas devido ao grande volume de registros.
+
+   - Solução: Implementei índices nas tabelas principais e usei consultas SQL otimizadas para melhorar o desempenho.
+
+### Responsividade em Dispositivos Móveis:
+
+   - Problema: A interface não estava se adaptando bem em telas menores.
+
+   - Solução: Ajustei o layout utilizando o grid system do Bootstrap e media queries customizadas para garantir uma boa aparência em todos os dispositivos.
+
 ## Como rodar o projeto na sua máquina
 
 1. clone o repositório :
