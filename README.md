@@ -1,9 +1,12 @@
-
-
 # Projeto Pizzaria -- Sistema CRUD
 
 ## Descrição
 Este projeto é um sistema CRUD para gerenciar os pedidos e o cadastro de produtos de uma pizzaria, desenvolvido utilizando PHP, MySQL, HTML, CSS e Bootstrap. O objetivo é permitir que os administradores da pizzaria façam o gerenciamento completo dos pedidos e do catálogo de pizzas, incluindo criação, visualização, atualização e exclusão de registros.
+
+## Video da aplicação rodando
+
+[Link do video](https://youtu.be/D9-umihUqf8?si=G3LAVGSNNSb8ze38)
+
 
 ### Objetivo
 O principal objetivo deste projeto é facilitar o gerenciamento de pedidos e produtos de uma pizzaria através de uma interface web intuitiva, permitindo uma administração eficiente e prática.
